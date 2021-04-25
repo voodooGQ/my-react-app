@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-react-app
+  description: My React App
+  annotations:
+    github.com/project-slug: voodooGQ/my-react-app
+spec:
+  type: website
+  lifecycle: experimental
+  owner: voodooGQ
